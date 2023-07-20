@@ -42,7 +42,7 @@ namespace Nazia_Accelerate
             workbook.Close();
             excelApp.Quit();
             System.Console.WriteLine("This is new Line");
-
+            System.Console.WriteLine("This is also a new line");
             Assert.Pass();
         }
     }
